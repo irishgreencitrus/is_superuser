@@ -4,6 +4,7 @@ description = "A cross-platform solution for finding out if the running user is 
 version = "1.0.0"
 edition = "2021"
 license-file = "LICENSE"
+repository = "https://github.com/irishgreencitrus/is_superuser"
 readme = "README.md"
 
 [lib]
