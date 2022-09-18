@@ -1,9 +1,10 @@
 [package]
 name = "is_superuser"
-version = "0.1.0"
+description = "A cross-platform solution for finding out if the running user is a superuser."
+version = "1.0.0"
 edition = "2021"
-
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+license-file = "LICENSE"
+readme = "README.md"
 
 [lib]
 crate-type = ["rlib","dylib"]
@@ -12,4 +13,3 @@ crate-type = ["rlib","dylib"]
 libc = "0.2"
 [target.'cfg(windows)'.dependencies]
 winapi = { version = "0.3.9", features = ["securitybaseapi", "processthreadsapi"]}
-# [target.'cfg(unix)'.dependencies]
